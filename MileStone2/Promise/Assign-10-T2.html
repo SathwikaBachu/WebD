@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assign-10</title>
+    <link rel="stylesheet" href="./Assign-10-T2.css">
+</head>
+<body>
+    <main>
+        <div class="row">
+            <div class="item item1">
+                <h1 class="heading">Login</h1>
+
+                <div class="images">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAaVBMVEX///8AAADs7OxEREQODg7f39/l5eW9vb3w8PDZ2dmYmJjW1tb09PT4+PjLy8vGxsbR0dFycnKLi4uRkZE1NTVra2urq6thYWG/v79ISEg8PDyjo6N/f39RUVGFhYWnp6cYGBi0tLQsLCyDJ8vZAAAC30lEQVR4nO3c3W7iQAxA4bIFQkkg4R9KYUvf/yG3q70gSAszmcGynZ5zj+RPQIhD4OWFiIiIiIiIiIiIiIgotmpczutiXzejifYoz25UTBeH4eCm981yOx9rT/aMmtVh8KD1Zrr37Kw3j3TX51N7zsSqVRTvu1ftUZOanWN9ToXbeJ9L4eS1C9ChsO7kcyg8dgS6E0YfQr0Kp52BzoSX7kBfwjIB6Eo4SwG6Eu76LiySgJ6EaUBHwg4n2z6Fk0SgH+FH34VVKtCNMOF0zZlwGKb4Fs6TgV6Ei94L04FOhBkv0sFae/iolvGg0+K8Ov7eXop9PW+asizftIePah3J29XakyYWuRie/H5H0UQBL9pjZhR1jbvUnjKnmMXJ6zvwXxGXL5baM+b1HgR+ao+YWfi02/NR5m/hF6n2hJmFPw7P2iNmFt7vG+0RMwsLZ9ojZha8zOZjQXpQUPihPWFuQeFRe8LcgsK99oS5BYXeD6Vh4Uh7wtyCwl/aE+YWFLq/ozQorLQnzC0o9H5Kg/AnCPv/Puy/sP+fFgjNx1kbQvsh/AFCJ8fSw2B4r5Dw7gO/H7rQdl3r9kuY6KbarmtCwkLbdU1IaOjLbyGhoaOQkFCb1UpG+KXNaiUj3GmzWskILd2jISPcarNayQgt3UgkI7R0M5+M0NKlVBHhp7aqnYjwpK1qJyI0tDsJCQ3tTkJCQ7uTkNDQ7iQkNLQ7CQm1UTdJCG39XkZCaGl3khFa2p1khJZ2JxnhXBt1k4TQ0u4kI9Q23SYgHGqbbvt6vtDY/d/V5E5V8I93yvH/c/O94jgkNHX2mVJQ6Oa5uhdChPZDiNB+CBHaDyFC+yFEaD+E/oUjhAjNhxCh/RAitB9ChPZDiNB+CBHaDyFC+yFEaD+ECO2HEKH9ECK0H0KE9kOI0H4IEdqv/8I3hAjNhxCh/RAitB9ChPYL/muEe2FVBLL0B5dERERERERERERERKTbH5zCLZZseubeAAAAAElFTkSuQmCC" alt="">                    
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAAAZlBMVEX///8AAADx8fH7+/v19fXS0tLs7Oz4+Pjl5eW8vLzNzc0LCwuzs7Pp6ek/Pz8jIyMWFhalpaWJiYnf39+tra1mZmZ/f3/Y2NjFxcWcnJxMTEw1NTUeHh4wMDCSkpJdXV1vb29VVVVhH8TdAAAGhklEQVR4nO2d6bazKgyGrdUqDljnoY73f5NfbWt3B61KAnrO4vm391oCr0JIQrSKIpFIJBKJRCKRSCQSiUQikUgkEolkP7hW5Od57ju6u/VQYOgBPbxCA/249ZiY0PTkMEZraTNXGnsT7JJiVEpP5bg/hmvokSlunAs4kW5Sym26RVPr55jmXi10rHNY4xPslZgYIxdqVn45UJ254xO6jVGjy6yWw8ELviaT6wT9lQlzz0YdzK3HlYSJvUDLlcZ6u87K47L/d2VNNDyPa5996PDfSONlUq5Q53lVmLeDEWd/MEp0OJQEQcNAOm3ERqba/T6eopiWw/9sgCnzrtef2R/sJ+GS5fJH6Sum33nnl3/lgM7vLbDbj3dO1Sot/Y38+LsC9D7YUBw12po5Ns4J0P2zERQ189vLDDZk+Z7+2knhWghYSw7xyqK/hs4ZVIv5Of9X87LlHdfvfu1LS54DdFbbyUEuww7UZ1tpvt4xeTOkng/yBUg5NcplnOtBy4kEdP2EU9/7L2t1/prJtpbv/KOUj1upkaCpDvF6q5Z+3Mxzy24ZIw+kpbqFoKbTFv1WVTCYI+fLJSxCRi0GbMVc9/3QaWl1v7seizHyR/xbRteGrN77X6Hx2+VMrm89epOYjFoA0fIBW6RZj0YeDYPfagKX/yvJWAy6QMx4a1W22kYT2PJ/JWaMAcafTG+j19oBH01Lw2qC8skAt3FWPWsV7GIOMJtTJZqO1qtkjakPOywt7N679cs1LOrlZk1HWjIdwHc//XSn7G5xdJHhaImZ51jPjG9YLm0dHMncaGEpvPndYVkHDoaWFdOaeRCJOdvJMZpvZg4KDg61Rf0k6UxocIRvMxSSyXiwMM3VZj8fD8KToYBQamDxZO9868fqga+ZCiGhoi1PQnitb03dPrg1YwphPsnX9EjbPBud2/B9xsNIeJsr924aB9H3jIB7AJ4zMri1MBgij3bJx4yD+2YlhhjFZBrH2bvQuI6s8B75HMGBJo4Y6Hy3S+8KOJmJMs2uBm0i3hQLkhjFhOZVMUAxzT06/FgFDOBY9oNs3eEdDy6gUOYNaNIbDoUe4KvOswWc6AoiBqhF0Yo4GuRYeIkvJjqoGKU7eE39yIesOsDHB1DK8KCPmu2qSEifRNRW+ZzYwMtEnk6IfZVUFAtrXnhgw7eZ7/OZrbDhgWa4uUUe8MBaFAV0QoRJiyAG8VQFRoQgBiV5hwFGiamxtYgBBC2KsgN/uadFEbO5T3YHpxZxJ/MMIZ3Zg3cYCaBBqpdX97BvIsX/KKcRYNBq/91uaymHGGnJKHsImbFm2RUNs+yFBQ8vl6EoZrOtmABvll2x6HyPHMGs3r+SbRkKMBfLTEHAiW92AMX/U2o20wI/Mv8m3UpMwOPVP5Nukt24IC//B0awhRlo2WoY5yGNcDuAdcY0gul3gsU0yG/vvZFGQhM2Z34P5oZJAnEHAgX3t5jVMMsFJTr4mDLllP25eycSiDkXBJ8wTXEovapo4rirvPIsaMvB9sqebBDVtLy0KKZ4MQjFfxMchSfRcd+pfscSrAWjKnMSTWzVCej90nl+FtOjk6BG/l8ITdMA3mBYRtoJ02LzXP13EN9PmqHl6S0/EFVHR/E+pzDNUYxFQ/5sxxSakK2zFaJFjJqC53b5hoH2LtwUtogFM1BzztKIWTADhOuxALyybB1mzu/hAN7SZ8RIebk2LG/6g9H4yKk4pMmXcNQc/LQG5zzZT9QoRo0L8M9i1grK/KTFsW/7+D6ei+KzBVvL6NEylFIBxi8w4BLiBAZ70KI6HY4WvjH/IvQEJ/rErVxgwgyQ6h0gH07CQQuwDm1zASH/T9TawzoM8Df+Mm6Klw2o+OYuZzDcCLE0iHu674eQk+mgxmasH/iBorlpluNGmd4GLoxxCvXMqVvsALMQ4fJrGbEs/YplZcSJ8jppeJTOtEKWi2HVlBY99FLyOsmgvqhwX814Z2JbkR+aVzOeGaWzI9iBMSxuhRjJFj9owOcV7XKLfFKPHiNXnNvVlimYMKF4Bu1M/Y0jStePcaZb2TB8ABed/ouv4MdTJZHwRPIEoROAjFtRk61DsFe0lLDquSROurffJrlVAXZrlZQJSfcyvz4w3NRJltuDS5CZm2crfmJoZlbPPyGaEFfbQW5vEaqVJ8XonnrparKvn7xZimrq5PYjUrffkcpS97/yMCQSiUQikUgkEolEIpFIJBKJRCL5f/MP5CVuBU6zMcAAAAAASUVORK5CYII=" alt="" id="img2">     
+                </div>
+
+                <h6>or use your account</h6>
+                
+                <form action="">
+                    <div class="mail">
+                        <input type="email" id="email" placeholder=" Email">
+                    </div>
+                    <div class="pass">
+                        <input type="password" name="password" id="password" placeholder=" Password">
+                    </div>
+                </form>
+
+                <h6>Forgot your password?</h6>
+                <button>LOG IN</button>
+
+            </div>
+            <div class="item item2">
+                <h1 class="headinggg">HTML CSS LOGIN FORM</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus laborum aspernatur sequi earum inventore voluptatibus error. In eligendi error esse?</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

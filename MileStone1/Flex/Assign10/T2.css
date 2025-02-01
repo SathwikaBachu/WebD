@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 60px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    padding-right: 20px;
+    color:rgba(18, 151, 149, 0.877);
+    font-size: 20px;
+}
+nav h3{
+    color: rgba(35, 32, 201, 0.823);
+    font-size: 20px;
+}
+/* header styles */
+.he{
+    width: 150px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+.headd{
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 50px;
+}
+header{
+    height: 350px;
+    background-color:rgba(18, 151, 149, 0.877);
+}
+h2{
+    margin-bottom: 20px;
+}
+
+/* main styles */
+.row{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.item1{
+    height: 400px;
+    width: 320px;
+
+}
+.food{
+    width: 150px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.mainn{
+    margin-bottom: 20px;
+}
+p{
+    margin-bottom: 10px;
+}

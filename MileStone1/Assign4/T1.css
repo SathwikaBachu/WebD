@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f3df96a7;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+h1{
+    margin-bottom: 70px;
+    margin-top: 20px;
+    font-size: 50px;
+}
+img{
+    float: left;
+}
+div{
+    float: right;
+    margin-bottom: 20px;
+}
+ol{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+h2{
+    margin-top: 20px;
+}
+ul{
+    margin-top: 20px;
+    margin-left: 40px;
+    padding-bottom: 40px;
+    
+}
+span{
+    color: chocolate;
+}
+

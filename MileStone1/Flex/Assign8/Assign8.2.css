@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(https://img.freepik.com/free-vector/realistic-travel-background-with-elements_52683-77784.jpg) ;
+    background-size: cover;
+}
+nav{
+    background-color: #fff;
+    display: flex;
+    background-attachment: fixed;
+}
+nav ul{
+    list-style-type:none;
+    display: flex;
+    gap: 70px;
+    padding : 20px 20px;
+    padding-left: 400px;
+    font-size: 1.2rem;
+}
+.row{
+    display: flex;
+    margin-top: 170px;
+    justify-content: space-evenly;
+    padding-left: 50px;
+    padding-right: 70px;
+}
+.item{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width:250px;
+    height: 350px;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+main img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+main button{
+    color:white;
+    background-color: rgb(242, 141, 208);
+    border: none;
+    font-size: 15px;
+    padding: 5px 5px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+main p{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+
+

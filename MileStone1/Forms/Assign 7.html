@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assign 7</title>
+    <link rel="stylesheet" href="./Assign 7.css">
+</head>
+<body>
+    <h1>Forms</h1>
+    <form action="">
+        <!-- Name -->
+        <div class ="form-group">
+        <label for="name">FirstName:</label>
+        <input type="text" 
+        name="name" 
+        id="name"
+        placeholder="Enter your name"
+        required 
+        minlength="4"
+        maxlength="20"
+        >
+        </div>
+        <!-- LastName -->
+         <div  class ="form-group">
+            <label for="Last">LastName:</label>
+            <input type="text" name="Last" id="Last">
+         </div>   
+         <!-- DOB -->
+          <div  class="form-group">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="dob" id="dob">
+          </div>
+          <!-- Email -->
+           <div   class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+           </div>
+           <!-- Phone -->
+            <div   class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" name="phone" id="phone">
+            </div>
+            <!-- Select State -->
+             <div class="form-group">
+                <label for="state">Select State</label>
+                <select name="state" id="state">
+                    <option value=""  selected disabled>Choose a state</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Telangana">Telangana</option>
+                </select>
+             </div>
+            <!-- Technical Skills Check Box -->
+             <label for="">Technical Skills</label>
+             <div>
+                <input type="checkbox" name="html" id="html">
+                <label for="html">HTML</label>
+             </div>
+             <div>
+                <input type="checkbox" name="JS" id="JS">
+                <label for="JS">JS</label>
+             </div>
+             <div>
+                <input type="checkbox" name="React" id="React">
+                <label for="React">React</label>
+             </div>
+             <div>
+                <input type="checkbox" name="c" id="c">
+                <label for="c">C</label>
+             </div>
+             <div>
+                <input type="checkbox" name="Java" id="Java">
+                <label for="Java">Java</label>
+             </div>
+
+             <!-- Gender Radio -->
+              <label for="">Gender</label>
+              <div>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+              </div>
+              <div>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+              </div>
+            <!-- Branch Radio -->
+             <label for="">Branch</label>
+             <div>
+                <input type="radio" name="branch" id="DS">
+                <label for="DS">DS</label>
+             </div>
+             <div>
+                <input type="radio" name="branch" id="CYS">
+                <label for="CYS">CYS</label>
+             </div>
+             <div>
+                <input type="radio" name="branch" id="AIDS">
+                <label for="AIDS">AIDS</label>
+             </div>
+             <!-- text area -->
+             <div class="form-group">
+                <label for="user">About User</label>
+             <textarea name="user" id="user" cols="20" rows="5"></textarea>
+             </div>
+             <!-- submit button -->
+              <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

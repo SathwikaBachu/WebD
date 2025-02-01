@@ -1,0 +1,15 @@
+#heading{
+    color: rgb(38, 61, 191);
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-shadow: 3px 3px 0px rgba(91, 23, 83, 0.19); 
+    letter-spacing: 6px;
+    
+}
+.side{
+    color: rgba(233, 65, 39, 0.884);
+}
+p{
+    line-height: 30px;
+}
